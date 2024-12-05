@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1f4037, #99daf2);
+    margin: 0;
+}
+
+#weather-app {
+    background: rgb(145, 158, 231);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#weather-app h1 {
+    margin-bottom: 20px;
+}
+
+#weather-app div {
+    margin: 10px 0;
+}
+
+#cityInput {
+    background-color: #c7c8e7;
+    padding: 10px;
+    border-radius: 11px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#fetchWeatherBtn {
+    background-color: rgb(37, 171, 126);
+    padding: 13px 30px;
+    border-radius: 12px;
+    margin-top: 19px;
+    cursor: pointer;
+}
